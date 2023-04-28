@@ -1,0 +1,7 @@
+openai
+Flask
+google-cloud-bigquery
+python-dotenv
+pytest
+pytest-flask
+pytest-mock
