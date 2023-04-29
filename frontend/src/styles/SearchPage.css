@@ -58,53 +58,10 @@ body {
     font-size: 18px;
 }
 
-table {
-    margin-top: 20px;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-table th,
-table td {
-    padding: 8px;
-    text-align: left;
-    border: 1px solid #ddd;
-}
-
-table th {
-    background-color: #f2f2f2;
-}
-
-.tabular-data {
-    margin-top: 60px;
-    width: 95vw;
-    height: 50px;
-}
-
 .completion {
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.903);
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-}
-
-.logo {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    margin-right: 10px;
-    border-radius: 50%;
-    opacity: 0.2;
-}
-
-.logo.selected {
-    opacity: 1;
-    border-width: 0.5;
 }
 
 .completion-block {
@@ -194,10 +151,5 @@ table th {
 
     .search-bar-container {
         margin-left: 0;
-    }
-
-    .logo-container {
-        margin-left: 0;
-        margin-top: 20px;
     }
 }
